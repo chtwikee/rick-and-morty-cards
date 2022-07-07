@@ -1,0 +1,53 @@
+#title {
+	width: 30%;
+	margin: auto;
+}
+
+#title h1 {
+	font-size: 2rem;
+	color: #ff1e00;
+	/* -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+}
+
+#logo {
+	text-align: center;
+	width: 30%;
+	margin: auto;
+}
+
+#logo img {
+	width: 6rem;
+}
+
+#menu {
+	width: 30%;
+	margin: auto;
+}
+#menu ul {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#menu ul li {
+	padding: 1rem;
+}
+
+#container-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+#container-wrapper:first-child {
+	margin-top: 2rem;
+}
+
+.cards {
+	width: 12rem;
+	min-height: 40vh;
+	background-color: #ccc;
+	box-shadow: 0 0 0.5rem 0 #6c6c6c;
+}
